@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        build 'Start'
-        jiraComment(issueKey: 'ssdsd', body: 'sdsd')
+        echo 'wewewe'
       }
     }
 
