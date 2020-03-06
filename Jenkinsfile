@@ -27,7 +27,7 @@ pipeline {
     stage('deploy') {
       steps {
         pwd(tmp: true)
-        jiraSearch 'search'
+        echo 'qqwwq'
       }
     }
 
